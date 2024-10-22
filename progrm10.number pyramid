@@ -1,0 +1,29 @@
+Write a program that prints the following pyramid on the screen. The number of lines must be obtained from the user as input.
+
+1
+
+2 2
+
+3 3 3
+
+4 4 4 4
+
+
+rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print(j+1, end=" ")
+    print()
+
+OUTPUT:
+
+C:\Users\mca24\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\mca24\PycharmProjects\pythonProject\prgrm1.py 
+Enter number of rows: 5
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+
+Process finished with exit code 0

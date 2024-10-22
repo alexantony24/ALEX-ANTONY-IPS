@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e9ecef;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .profile-container:hover {
+            transform: scale(1.02);
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            border: 3px solid #4CAF50;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+        }
+        h2 {
+            font-size: 20px;
+            color: #555;
+        }
+        .data-point {
+            margin: 15px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 5px solid #4CAF50;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .data-point:hover {
+            background: #e2e6ea;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-container">
+    <div class="profile-header">
+        <img src="profile-image.jpg" alt="Profile Image">
+        <div>
+            <h1>John Doe</h1>
+            <h2>Senior Developer</h2>
+        </div>
+    </div>
+
+    <div class="data-point">
+        <strong>Experience:</strong> 5 years
+    </div>
+    <div class="data-point">
+        <strong>Skills:</strong> HTML, CSS, JavaScript, React
+    </div>
+    <div class="data-point">
+        <strong>Education:</strong> B.Sc. in Computer Science
+    </div>
+    <div class="data-point">
+        <strong>Location:</strong> San Francisco, CA
+    </div>
+    <div class="data-point">
+        <strong>Hobbies:</strong> Photography, Traveling, Coding
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2024 John Doe. All rights reserved.
+</div>
+
+</body>
+</html>
